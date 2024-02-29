@@ -1,0 +1,3 @@
+/home/brumus/Documents/Code/C++/BGFX/Psidon/Psidon/build/CMakeFiles/Psidon.dir
+/home/brumus/Documents/Code/C++/BGFX/Psidon/Psidon/build/CMakeFiles/edit_cache.dir
+/home/brumus/Documents/Code/C++/BGFX/Psidon/Psidon/build/CMakeFiles/rebuild_cache.dir

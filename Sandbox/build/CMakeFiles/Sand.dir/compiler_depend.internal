@@ -3,6 +3,9 @@
 
 CMakeFiles/Sand.dir/src/Main.cpp.o
  /home/brumus/Documents/Code/C++/BGFX/Psidon/Sandbox/src/Main.cpp
+ /home/brumus/Documents/Code/C++/BGFX/Psidon/Psidon/src/Events/Event.hpp
+ /home/brumus/Documents/Code/C++/BGFX/Psidon/Psidon/src/Events/KeyEvents.hpp
+ /home/brumus/Documents/Code/C++/BGFX/Psidon/Psidon/src/Events/WindowEvents.hpp
  /home/brumus/Documents/Code/C++/BGFX/Psidon/Psidon/src/Logger/Logger.hpp
  /home/brumus/Documents/Code/C++/BGFX/Psidon/Psidon/include/Psidon.hpp
  /usr/include/alloca.h

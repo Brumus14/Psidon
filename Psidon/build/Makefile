@@ -129,29 +129,29 @@ Psidon/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Psidon.dir/build.make CMakeFiles/Psidon.dir/build
 .PHONY : Psidon/fast
 
-src/Psidon/Application.o: src/Psidon/Application.cpp.o
-.PHONY : src/Psidon/Application.o
+src/Logger/Logger.o: src/Logger/Logger.cpp.o
+.PHONY : src/Logger/Logger.o
 
 # target to build an object file
-src/Psidon/Application.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Psidon.dir/build.make CMakeFiles/Psidon.dir/src/Psidon/Application.cpp.o
-.PHONY : src/Psidon/Application.cpp.o
+src/Logger/Logger.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Psidon.dir/build.make CMakeFiles/Psidon.dir/src/Logger/Logger.cpp.o
+.PHONY : src/Logger/Logger.cpp.o
 
-src/Psidon/Application.i: src/Psidon/Application.cpp.i
-.PHONY : src/Psidon/Application.i
+src/Logger/Logger.i: src/Logger/Logger.cpp.i
+.PHONY : src/Logger/Logger.i
 
 # target to preprocess a source file
-src/Psidon/Application.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Psidon.dir/build.make CMakeFiles/Psidon.dir/src/Psidon/Application.cpp.i
-.PHONY : src/Psidon/Application.cpp.i
+src/Logger/Logger.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Psidon.dir/build.make CMakeFiles/Psidon.dir/src/Logger/Logger.cpp.i
+.PHONY : src/Logger/Logger.cpp.i
 
-src/Psidon/Application.s: src/Psidon/Application.cpp.s
-.PHONY : src/Psidon/Application.s
+src/Logger/Logger.s: src/Logger/Logger.cpp.s
+.PHONY : src/Logger/Logger.s
 
 # target to generate assembly for a file
-src/Psidon/Application.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Psidon.dir/build.make CMakeFiles/Psidon.dir/src/Psidon/Application.cpp.s
-.PHONY : src/Psidon/Application.cpp.s
+src/Logger/Logger.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Psidon.dir/build.make CMakeFiles/Psidon.dir/src/Logger/Logger.cpp.s
+.PHONY : src/Logger/Logger.cpp.s
 
 # Help Target
 help:
@@ -162,9 +162,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... Psidon"
-	@echo "... src/Psidon/Application.o"
-	@echo "... src/Psidon/Application.i"
-	@echo "... src/Psidon/Application.s"
+	@echo "... src/Logger/Logger.o"
+	@echo "... src/Logger/Logger.i"
+	@echo "... src/Logger/Logger.s"
 .PHONY : help
 
 

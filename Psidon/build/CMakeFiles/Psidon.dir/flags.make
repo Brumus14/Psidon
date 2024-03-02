@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = -DPsidon_EXPORTS
 
-CXX_INCLUDES = -I/home/brumus/Documents/Code/C++/BGFX/Psidon/Psidon/. -I/home/brumus/Documents/Code/C++/BGFX/Psidon/Psidon/include -I/home/brumus/Documents/Code/C++/BGFX/Psidon/Psidon/src
+CXX_INCLUDES = -I/home/brumus/Documents/Code/C++/BGFX/Psidon/Psidon/src
 
-CXX_FLAGS = -fPIC
+CXX_FLAGS = -std=gnu++20 -fPIC
 

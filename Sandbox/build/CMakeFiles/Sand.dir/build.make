@@ -69,28 +69,28 @@ include CMakeFiles/Sand.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/Sand.dir/flags.make
 
-CMakeFiles/Sand.dir/src/SandboxApp.cpp.o: CMakeFiles/Sand.dir/flags.make
-CMakeFiles/Sand.dir/src/SandboxApp.cpp.o: /home/brumus/Documents/Code/C++/BGFX/Psidon/Sandbox/src/SandboxApp.cpp
-CMakeFiles/Sand.dir/src/SandboxApp.cpp.o: CMakeFiles/Sand.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/brumus/Documents/Code/C++/BGFX/Psidon/Sandbox/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Sand.dir/src/SandboxApp.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Sand.dir/src/SandboxApp.cpp.o -MF CMakeFiles/Sand.dir/src/SandboxApp.cpp.o.d -o CMakeFiles/Sand.dir/src/SandboxApp.cpp.o -c /home/brumus/Documents/Code/C++/BGFX/Psidon/Sandbox/src/SandboxApp.cpp
+CMakeFiles/Sand.dir/src/Main.cpp.o: CMakeFiles/Sand.dir/flags.make
+CMakeFiles/Sand.dir/src/Main.cpp.o: /home/brumus/Documents/Code/C++/BGFX/Psidon/Sandbox/src/Main.cpp
+CMakeFiles/Sand.dir/src/Main.cpp.o: CMakeFiles/Sand.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/brumus/Documents/Code/C++/BGFX/Psidon/Sandbox/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Sand.dir/src/Main.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Sand.dir/src/Main.cpp.o -MF CMakeFiles/Sand.dir/src/Main.cpp.o.d -o CMakeFiles/Sand.dir/src/Main.cpp.o -c /home/brumus/Documents/Code/C++/BGFX/Psidon/Sandbox/src/Main.cpp
 
-CMakeFiles/Sand.dir/src/SandboxApp.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Sand.dir/src/SandboxApp.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/brumus/Documents/Code/C++/BGFX/Psidon/Sandbox/src/SandboxApp.cpp > CMakeFiles/Sand.dir/src/SandboxApp.cpp.i
+CMakeFiles/Sand.dir/src/Main.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Sand.dir/src/Main.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/brumus/Documents/Code/C++/BGFX/Psidon/Sandbox/src/Main.cpp > CMakeFiles/Sand.dir/src/Main.cpp.i
 
-CMakeFiles/Sand.dir/src/SandboxApp.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Sand.dir/src/SandboxApp.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/brumus/Documents/Code/C++/BGFX/Psidon/Sandbox/src/SandboxApp.cpp -o CMakeFiles/Sand.dir/src/SandboxApp.cpp.s
+CMakeFiles/Sand.dir/src/Main.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Sand.dir/src/Main.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/brumus/Documents/Code/C++/BGFX/Psidon/Sandbox/src/Main.cpp -o CMakeFiles/Sand.dir/src/Main.cpp.s
 
 # Object files for target Sand
 Sand_OBJECTS = \
-"CMakeFiles/Sand.dir/src/SandboxApp.cpp.o"
+"CMakeFiles/Sand.dir/src/Main.cpp.o"
 
 # External object files for target Sand
 Sand_EXTERNAL_OBJECTS =
 
-Sand: CMakeFiles/Sand.dir/src/SandboxApp.cpp.o
+Sand: CMakeFiles/Sand.dir/src/Main.cpp.o
 Sand: CMakeFiles/Sand.dir/build.make
 Sand: CMakeFiles/Sand.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/brumus/Documents/Code/C++/BGFX/Psidon/Sandbox/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable Sand"

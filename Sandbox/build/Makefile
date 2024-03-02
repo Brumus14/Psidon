@@ -129,29 +129,29 @@ Sand/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Sand.dir/build.make CMakeFiles/Sand.dir/build
 .PHONY : Sand/fast
 
-src/SandboxApp.o: src/SandboxApp.cpp.o
-.PHONY : src/SandboxApp.o
+src/Main.o: src/Main.cpp.o
+.PHONY : src/Main.o
 
 # target to build an object file
-src/SandboxApp.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Sand.dir/build.make CMakeFiles/Sand.dir/src/SandboxApp.cpp.o
-.PHONY : src/SandboxApp.cpp.o
+src/Main.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Sand.dir/build.make CMakeFiles/Sand.dir/src/Main.cpp.o
+.PHONY : src/Main.cpp.o
 
-src/SandboxApp.i: src/SandboxApp.cpp.i
-.PHONY : src/SandboxApp.i
+src/Main.i: src/Main.cpp.i
+.PHONY : src/Main.i
 
 # target to preprocess a source file
-src/SandboxApp.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Sand.dir/build.make CMakeFiles/Sand.dir/src/SandboxApp.cpp.i
-.PHONY : src/SandboxApp.cpp.i
+src/Main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Sand.dir/build.make CMakeFiles/Sand.dir/src/Main.cpp.i
+.PHONY : src/Main.cpp.i
 
-src/SandboxApp.s: src/SandboxApp.cpp.s
-.PHONY : src/SandboxApp.s
+src/Main.s: src/Main.cpp.s
+.PHONY : src/Main.s
 
 # target to generate assembly for a file
-src/SandboxApp.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Sand.dir/build.make CMakeFiles/Sand.dir/src/SandboxApp.cpp.s
-.PHONY : src/SandboxApp.cpp.s
+src/Main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Sand.dir/build.make CMakeFiles/Sand.dir/src/Main.cpp.s
+.PHONY : src/Main.cpp.s
 
 # Help Target
 help:
@@ -162,9 +162,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... Sand"
-	@echo "... src/SandboxApp.o"
-	@echo "... src/SandboxApp.i"
-	@echo "... src/SandboxApp.s"
+	@echo "... src/Main.o"
+	@echo "... src/Main.i"
+	@echo "... src/Main.s"
 .PHONY : help
 
 

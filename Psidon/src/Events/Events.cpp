@@ -5,10 +5,20 @@ namespace Psidon {
     handlers[type].push_back(handler);
   }
 
-  void Events::Dispatch(const Event & event) const {
-    std::vector<std::function<void(const Event &)>> calledHandlers = handlers.at(event.GetType());
+  void Events::RemoveHandler(EventType type, std::function<void(const Event &)> && handler) {
+    std::vector<std::function<void(const Event &)>> & removeHandlers = handlers.at(type);
 
-    for (std::function<void(const Event &)> handler : calledHandlers) {
+    for (int i = 0; i < removeHandlers.size(); i++) {
+      removeHandlers.erase(removeHandlers.begin() + i);
+
+      return;
+    }
+  }
+
+  void Events::Dispatch(const Event & event) const {
+    const std::vector<std::function<void(const Event &)>> & calledHandlers = handlers.at(event.GetType());
+
+    for (const std::function<void(const Event &)> & handler : calledHandlers) {
       handler(event);
     }
   }

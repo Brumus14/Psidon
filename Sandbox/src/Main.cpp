@@ -20,6 +20,7 @@ int main(int argc, char * argv[]) {
   eventData.test = true;
   events.AddHandler(Psidon::EventType::WindowClose, OnWindowClose);
   events.Dispatch(eventData);
+  events.Dispatch(eventData);
 }
 
 void OnWindowClose(const Psidon::Event & e) {

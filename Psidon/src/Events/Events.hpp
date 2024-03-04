@@ -2,7 +2,6 @@
 
 #include <functional>
 #include <unordered_map>
-#include <iostream>
 #include <vector>
 
 namespace Psidon {
@@ -38,6 +37,8 @@ namespace Psidon {
   class Events {
   public:
     void AddHandler(EventType type, std::function<void(const Event &)> && handler);
+    void RemoveHandler(EventType type, std::function<void(const Event &)> && handler);
+
     void Dispatch(const Event & event) const;
 
   private:

@@ -129,6 +129,30 @@ Psidon/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Psidon.dir/build.make CMakeFiles/Psidon.dir/build
 .PHONY : Psidon/fast
 
+src/Events/Events.o: src/Events/Events.cpp.o
+.PHONY : src/Events/Events.o
+
+# target to build an object file
+src/Events/Events.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Psidon.dir/build.make CMakeFiles/Psidon.dir/src/Events/Events.cpp.o
+.PHONY : src/Events/Events.cpp.o
+
+src/Events/Events.i: src/Events/Events.cpp.i
+.PHONY : src/Events/Events.i
+
+# target to preprocess a source file
+src/Events/Events.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Psidon.dir/build.make CMakeFiles/Psidon.dir/src/Events/Events.cpp.i
+.PHONY : src/Events/Events.cpp.i
+
+src/Events/Events.s: src/Events/Events.cpp.s
+.PHONY : src/Events/Events.s
+
+# target to generate assembly for a file
+src/Events/Events.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Psidon.dir/build.make CMakeFiles/Psidon.dir/src/Events/Events.cpp.s
+.PHONY : src/Events/Events.cpp.s
+
 src/Logger/Logger.o: src/Logger/Logger.cpp.o
 .PHONY : src/Logger/Logger.o
 
@@ -162,6 +186,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... Psidon"
+	@echo "... src/Events/Events.o"
+	@echo "... src/Events/Events.i"
+	@echo "... src/Events/Events.s"
 	@echo "... src/Logger/Logger.o"
 	@echo "... src/Logger/Logger.i"
 	@echo "... src/Logger/Logger.s"

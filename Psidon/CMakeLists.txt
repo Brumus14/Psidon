@@ -6,6 +6,7 @@ set(CMAKE_CXX_STANDARD 20)
 
 add_library(Psidon SHARED
   src/Logger/Logger.cpp
+  src/Events/Events.cpp
 )
 
 # set_target_properties(Psidon PROPERTIES VERSION ${PROJECT_VERSION})

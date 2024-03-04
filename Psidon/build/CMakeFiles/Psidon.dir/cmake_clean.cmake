@@ -1,4 +1,6 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/Psidon.dir/src/Events/Events.cpp.o"
+  "CMakeFiles/Psidon.dir/src/Events/Events.cpp.o.d"
   "CMakeFiles/Psidon.dir/src/Logger/Logger.cpp.o"
   "CMakeFiles/Psidon.dir/src/Logger/Logger.cpp.o.d"
   "libPsidon.pdb"

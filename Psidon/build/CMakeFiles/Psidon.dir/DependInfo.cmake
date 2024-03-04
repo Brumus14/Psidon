@@ -8,6 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
+  "/home/brumus/Documents/Code/C++/BGFX/Psidon/Psidon/src/Events/Events.cpp" "CMakeFiles/Psidon.dir/src/Events/Events.cpp.o" "gcc" "CMakeFiles/Psidon.dir/src/Events/Events.cpp.o.d"
   "/home/brumus/Documents/Code/C++/BGFX/Psidon/Psidon/src/Logger/Logger.cpp" "CMakeFiles/Psidon.dir/src/Logger/Logger.cpp.o" "gcc" "CMakeFiles/Psidon.dir/src/Logger/Logger.cpp.o.d"
   )
 

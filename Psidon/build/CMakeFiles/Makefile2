@@ -81,12 +81,12 @@ clean: CMakeFiles/Psidon.dir/clean
 CMakeFiles/Psidon.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Psidon.dir/build.make CMakeFiles/Psidon.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Psidon.dir/build.make CMakeFiles/Psidon.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/brumus/Documents/Code/C++/BGFX/Psidon/Psidon/build/CMakeFiles --progress-num=1,2,3 "Built target Psidon"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/brumus/Documents/Code/C++/BGFX/Psidon/Psidon/build/CMakeFiles --progress-num=1,2,3,4 "Built target Psidon"
 .PHONY : CMakeFiles/Psidon.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/Psidon.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/brumus/Documents/Code/C++/BGFX/Psidon/Psidon/build/CMakeFiles 3
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/brumus/Documents/Code/C++/BGFX/Psidon/Psidon/build/CMakeFiles 4
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/Psidon.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/brumus/Documents/Code/C++/BGFX/Psidon/Psidon/build/CMakeFiles 0
 .PHONY : CMakeFiles/Psidon.dir/rule

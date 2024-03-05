@@ -2,7 +2,7 @@ CMakeFiles/Sand.dir/src/Main.cpp.o: \
  /home/brumus/Documents/Code/C++/BGFX/Psidon/Sandbox/src/Main.cpp \
  /usr/include/stdc-predef.h \
  /home/brumus/Documents/Code/C++/BGFX/Psidon/Sandbox/../Psidon/include/Psidon.hpp \
- /home/brumus/Documents/Code/C++/BGFX/Psidon/Sandbox/../Psidon/include/../src/Logger/Logger.hpp \
+ /home/brumus/Documents/Code/C++/BGFX/Psidon/Sandbox/../Psidon/include/../src/Log/Log.hpp \
  /usr/include/c++/13.2.1/chrono \
  /usr/include/c++/13.2.1/bits/requires_hosted.h \
  /usr/include/c++/13.2.1/x86_64-pc-linux-gnu/bits/c++config.h \
@@ -190,4 +190,8 @@ CMakeFiles/Sand.dir/src/Main.cpp.o: \
  /usr/include/c++/13.2.1/bits/hashtable.h \
  /usr/include/c++/13.2.1/bits/hashtable_policy.h \
  /usr/include/c++/13.2.1/bits/node_handle.h \
- /usr/include/c++/13.2.1/bits/erase_if.h /usr/include/c++/13.2.1/iostream
+ /usr/include/c++/13.2.1/bits/erase_if.h \
+ /home/brumus/Documents/Code/C++/BGFX/Psidon/Sandbox/../Psidon/include/../src/Core/PlatformDetection.hpp \
+ /home/brumus/Documents/Code/C++/BGFX/Psidon/Sandbox/../Psidon/include/../src/Window/Window.hpp \
+ /usr/include/GLFW/glfw3.h /usr/include/GL/gl.h /usr/include/GL/glext.h \
+ /usr/include/KHR/khrplatform.h

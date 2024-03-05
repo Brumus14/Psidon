@@ -1,30 +1,36 @@
 #include <Psidon.hpp>
-#include <chrono>
-#include <iostream>
 
-void OnWindowClose(const Psidon::Event & event);
-
+void OnWindowClose(const Psi::Event & event);
+void OnKeyPressed(const Psi::Event & e);
+void OnKeyReleased(const Psi::Event & e);
+bool r = true;
 int main(int argc, char * argv[]) {
-  std::chrono::time_point startTime = std::chrono::high_resolution_clock::now();
-  Psidon::Log::Info("this is info!");
-  Psidon::Log::Warning("this is warning!");
-  Psidon::Log::Critical("this is critical!");
-  std::chrono::time_point endTime = std::chrono::high_resolution_clock::now();
-  Psidon::Log::Info("Took " + std::to_string((endTime - startTime).count()) + "ns to run");
+  Psi::Events::AddHandler(Psi::EventType::WindowClose, OnWindowClose);
+  Psi::Events::AddHandler(Psi::EventType::KeyPressed, OnKeyPressed);
 
-  Psidon::Events events;
-  events.AddHandler(Psidon::EventType::WindowClose, OnWindowClose);
-  Psidon::WindowCloseEvent eventData;
-  eventData.test = false;
-  events.Dispatch(eventData);
-  eventData.test = true;
-  events.AddHandler(Psidon::EventType::WindowClose, OnWindowClose);
-  events.Dispatch(eventData);
-  events.Dispatch(eventData);
+  Psi::Window window = Psi::Window("test1", 800, 600);
+
+  while (r) {
+    window.Update();
+  }
 }
 
-void OnWindowClose(const Psidon::Event & e) {
-  const Psidon::WindowCloseEvent & event = static_cast<const Psidon::WindowCloseEvent &>(e);
+void OnWindowClose(const Psi::Event & e) {
+  const Psi::WindowCloseEvent & event = static_cast<const Psi::WindowCloseEvent &>(e);
 
-  Psidon::Log::Critical(event.test ? "true" : "false");
+  r = false;
+}
+
+void OnKeyPressed(const Psi::Event & e) {
+  const Psi::KeyPressedEvent & event = static_cast<const Psi::KeyPressedEvent &>(e);
+
+  Psi::Log::Info("Key pressed with key code: " + std::to_string(event.keyCode));
+
+  if (event.keyCode == 81) { r = false; }
+}
+
+void OnKeyReleased(const Psi::Event & e) {
+  const Psi::KeyReleasedEvent & event = static_cast<const Psi::KeyReleasedEvent &>(e);
+
+  Psi::Log::Info("Key released with key code: " + std::to_string(event.keyCode));
 }

@@ -3,9 +3,15 @@
 
 CMakeFiles/Sand.dir/src/Main.cpp.o
  /home/brumus/Documents/Code/C++/BGFX/Psidon/Sandbox/src/Main.cpp
+ /home/brumus/Documents/Code/C++/BGFX/Psidon/Psidon/src/Core/PlatformDetection.hpp
  /home/brumus/Documents/Code/C++/BGFX/Psidon/Psidon/src/Events/Events.hpp
- /home/brumus/Documents/Code/C++/BGFX/Psidon/Psidon/src/Logger/Logger.hpp
+ /home/brumus/Documents/Code/C++/BGFX/Psidon/Psidon/src/Log/Log.hpp
+ /home/brumus/Documents/Code/C++/BGFX/Psidon/Psidon/src/Window/Window.hpp
  /home/brumus/Documents/Code/C++/BGFX/Psidon/Psidon/include/Psidon.hpp
+ /usr/include/GL/gl.h
+ /usr/include/GL/glext.h
+ /usr/include/GLFW/glfw3.h
+ /usr/include/KHR/khrplatform.h
  /usr/include/alloca.h
  /usr/include/asm-generic/errno-base.h
  /usr/include/asm-generic/errno.h
@@ -194,7 +200,6 @@ CMakeFiles/Sand.dir/src/Main.cpp.o
  /usr/include/c++/13.2.1/iomanip
  /usr/include/c++/13.2.1/ios
  /usr/include/c++/13.2.1/iosfwd
- /usr/include/c++/13.2.1/iostream
  /usr/include/c++/13.2.1/istream
  /usr/include/c++/13.2.1/limits
  /usr/include/c++/13.2.1/locale

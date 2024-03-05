@@ -4,7 +4,7 @@
 #include <unordered_map>
 #include <vector>
 
-namespace Psidon {
+namespace Psi {
   enum EventType {
     WindowClose,
     KeyPressed,
@@ -13,35 +13,38 @@ namespace Psidon {
 
   class Event {
   public:
+    bool handled;
+
     virtual EventType GetType() const = 0;
   };
 
   class WindowCloseEvent : public Event {
   public:
-    static constexpr EventType eventType = EventType::WindowClose;
-
-    inline EventType GetType() const override { return eventType; }
-    bool test;
+    inline EventType GetType() const override { return EventType::WindowClose; }
   };
 
   class KeyPressedEvent : public Event {
   public:
-    bool testa;
+    int keyCode;
+
+    inline EventType GetType() const override { return EventType::KeyPressed; }
   };
 
   class KeyReleasedEvent : public Event {
   public:
-    bool testb;
+    int keyCode;
+
+    inline EventType GetType() const override { return EventType::KeyReleased; }
   };
 
   class Events {
   public:
-    void AddHandler(EventType type, std::function<void(const Event &)> && handler);
-    void RemoveHandler(EventType type, std::function<void(const Event &)> && handler);
+    static void AddHandler(EventType type, std::function<void(const Event &)> && handler);
+    static void RemoveHandler(EventType type, std::function<void(const Event &)> && handler);
 
-    void Dispatch(const Event & event) const;
+    static void Dispatch(const Event & event);
 
   private:
-    std::unordered_map<EventType, std::vector<std::function<void(const Event &)>>> handlers;
+    static std::unordered_map<EventType, std::vector<std::function<void(const Event &)>>> mHandlers;
   };
 }

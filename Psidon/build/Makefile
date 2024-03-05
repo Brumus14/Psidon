@@ -153,29 +153,53 @@ src/Events/Events.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Psidon.dir/build.make CMakeFiles/Psidon.dir/src/Events/Events.cpp.s
 .PHONY : src/Events/Events.cpp.s
 
-src/Logger/Logger.o: src/Logger/Logger.cpp.o
-.PHONY : src/Logger/Logger.o
+src/Log/Log.o: src/Log/Log.cpp.o
+.PHONY : src/Log/Log.o
 
 # target to build an object file
-src/Logger/Logger.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Psidon.dir/build.make CMakeFiles/Psidon.dir/src/Logger/Logger.cpp.o
-.PHONY : src/Logger/Logger.cpp.o
+src/Log/Log.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Psidon.dir/build.make CMakeFiles/Psidon.dir/src/Log/Log.cpp.o
+.PHONY : src/Log/Log.cpp.o
 
-src/Logger/Logger.i: src/Logger/Logger.cpp.i
-.PHONY : src/Logger/Logger.i
+src/Log/Log.i: src/Log/Log.cpp.i
+.PHONY : src/Log/Log.i
 
 # target to preprocess a source file
-src/Logger/Logger.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Psidon.dir/build.make CMakeFiles/Psidon.dir/src/Logger/Logger.cpp.i
-.PHONY : src/Logger/Logger.cpp.i
+src/Log/Log.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Psidon.dir/build.make CMakeFiles/Psidon.dir/src/Log/Log.cpp.i
+.PHONY : src/Log/Log.cpp.i
 
-src/Logger/Logger.s: src/Logger/Logger.cpp.s
-.PHONY : src/Logger/Logger.s
+src/Log/Log.s: src/Log/Log.cpp.s
+.PHONY : src/Log/Log.s
 
 # target to generate assembly for a file
-src/Logger/Logger.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Psidon.dir/build.make CMakeFiles/Psidon.dir/src/Logger/Logger.cpp.s
-.PHONY : src/Logger/Logger.cpp.s
+src/Log/Log.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Psidon.dir/build.make CMakeFiles/Psidon.dir/src/Log/Log.cpp.s
+.PHONY : src/Log/Log.cpp.s
+
+src/Window/Window.o: src/Window/Window.cpp.o
+.PHONY : src/Window/Window.o
+
+# target to build an object file
+src/Window/Window.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Psidon.dir/build.make CMakeFiles/Psidon.dir/src/Window/Window.cpp.o
+.PHONY : src/Window/Window.cpp.o
+
+src/Window/Window.i: src/Window/Window.cpp.i
+.PHONY : src/Window/Window.i
+
+# target to preprocess a source file
+src/Window/Window.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Psidon.dir/build.make CMakeFiles/Psidon.dir/src/Window/Window.cpp.i
+.PHONY : src/Window/Window.cpp.i
+
+src/Window/Window.s: src/Window/Window.cpp.s
+.PHONY : src/Window/Window.s
+
+# target to generate assembly for a file
+src/Window/Window.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Psidon.dir/build.make CMakeFiles/Psidon.dir/src/Window/Window.cpp.s
+.PHONY : src/Window/Window.cpp.s
 
 # Help Target
 help:
@@ -189,9 +213,12 @@ help:
 	@echo "... src/Events/Events.o"
 	@echo "... src/Events/Events.i"
 	@echo "... src/Events/Events.s"
-	@echo "... src/Logger/Logger.o"
-	@echo "... src/Logger/Logger.i"
-	@echo "... src/Logger/Logger.s"
+	@echo "... src/Log/Log.o"
+	@echo "... src/Log/Log.i"
+	@echo "... src/Log/Log.s"
+	@echo "... src/Window/Window.o"
+	@echo "... src/Window/Window.i"
+	@echo "... src/Window/Window.s"
 .PHONY : help
 
 

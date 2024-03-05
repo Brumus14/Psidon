@@ -3,7 +3,7 @@
 #include <chrono>
 #include <string>
 
-namespace Psidon {
+namespace Psi {
   class Log {
   public:
     static void Info(const std::string & text);

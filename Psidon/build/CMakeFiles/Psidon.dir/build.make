@@ -69,19 +69,19 @@ include CMakeFiles/Psidon.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/Psidon.dir/flags.make
 
-CMakeFiles/Psidon.dir/src/Logger/Logger.cpp.o: CMakeFiles/Psidon.dir/flags.make
-CMakeFiles/Psidon.dir/src/Logger/Logger.cpp.o: /home/brumus/Documents/Code/C++/BGFX/Psidon/Psidon/src/Logger/Logger.cpp
-CMakeFiles/Psidon.dir/src/Logger/Logger.cpp.o: CMakeFiles/Psidon.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/brumus/Documents/Code/C++/BGFX/Psidon/Psidon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Psidon.dir/src/Logger/Logger.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Psidon.dir/src/Logger/Logger.cpp.o -MF CMakeFiles/Psidon.dir/src/Logger/Logger.cpp.o.d -o CMakeFiles/Psidon.dir/src/Logger/Logger.cpp.o -c /home/brumus/Documents/Code/C++/BGFX/Psidon/Psidon/src/Logger/Logger.cpp
+CMakeFiles/Psidon.dir/src/Log/Log.cpp.o: CMakeFiles/Psidon.dir/flags.make
+CMakeFiles/Psidon.dir/src/Log/Log.cpp.o: /home/brumus/Documents/Code/C++/BGFX/Psidon/Psidon/src/Log/Log.cpp
+CMakeFiles/Psidon.dir/src/Log/Log.cpp.o: CMakeFiles/Psidon.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/brumus/Documents/Code/C++/BGFX/Psidon/Psidon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Psidon.dir/src/Log/Log.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Psidon.dir/src/Log/Log.cpp.o -MF CMakeFiles/Psidon.dir/src/Log/Log.cpp.o.d -o CMakeFiles/Psidon.dir/src/Log/Log.cpp.o -c /home/brumus/Documents/Code/C++/BGFX/Psidon/Psidon/src/Log/Log.cpp
 
-CMakeFiles/Psidon.dir/src/Logger/Logger.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Psidon.dir/src/Logger/Logger.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/brumus/Documents/Code/C++/BGFX/Psidon/Psidon/src/Logger/Logger.cpp > CMakeFiles/Psidon.dir/src/Logger/Logger.cpp.i
+CMakeFiles/Psidon.dir/src/Log/Log.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Psidon.dir/src/Log/Log.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/brumus/Documents/Code/C++/BGFX/Psidon/Psidon/src/Log/Log.cpp > CMakeFiles/Psidon.dir/src/Log/Log.cpp.i
 
-CMakeFiles/Psidon.dir/src/Logger/Logger.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Psidon.dir/src/Logger/Logger.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/brumus/Documents/Code/C++/BGFX/Psidon/Psidon/src/Logger/Logger.cpp -o CMakeFiles/Psidon.dir/src/Logger/Logger.cpp.s
+CMakeFiles/Psidon.dir/src/Log/Log.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Psidon.dir/src/Log/Log.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/brumus/Documents/Code/C++/BGFX/Psidon/Psidon/src/Log/Log.cpp -o CMakeFiles/Psidon.dir/src/Log/Log.cpp.s
 
 CMakeFiles/Psidon.dir/src/Events/Events.cpp.o: CMakeFiles/Psidon.dir/flags.make
 CMakeFiles/Psidon.dir/src/Events/Events.cpp.o: /home/brumus/Documents/Code/C++/BGFX/Psidon/Psidon/src/Events/Events.cpp
@@ -97,19 +97,35 @@ CMakeFiles/Psidon.dir/src/Events/Events.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Psidon.dir/src/Events/Events.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/brumus/Documents/Code/C++/BGFX/Psidon/Psidon/src/Events/Events.cpp -o CMakeFiles/Psidon.dir/src/Events/Events.cpp.s
 
+CMakeFiles/Psidon.dir/src/Window/Window.cpp.o: CMakeFiles/Psidon.dir/flags.make
+CMakeFiles/Psidon.dir/src/Window/Window.cpp.o: /home/brumus/Documents/Code/C++/BGFX/Psidon/Psidon/src/Window/Window.cpp
+CMakeFiles/Psidon.dir/src/Window/Window.cpp.o: CMakeFiles/Psidon.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/brumus/Documents/Code/C++/BGFX/Psidon/Psidon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Psidon.dir/src/Window/Window.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Psidon.dir/src/Window/Window.cpp.o -MF CMakeFiles/Psidon.dir/src/Window/Window.cpp.o.d -o CMakeFiles/Psidon.dir/src/Window/Window.cpp.o -c /home/brumus/Documents/Code/C++/BGFX/Psidon/Psidon/src/Window/Window.cpp
+
+CMakeFiles/Psidon.dir/src/Window/Window.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Psidon.dir/src/Window/Window.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/brumus/Documents/Code/C++/BGFX/Psidon/Psidon/src/Window/Window.cpp > CMakeFiles/Psidon.dir/src/Window/Window.cpp.i
+
+CMakeFiles/Psidon.dir/src/Window/Window.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Psidon.dir/src/Window/Window.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/brumus/Documents/Code/C++/BGFX/Psidon/Psidon/src/Window/Window.cpp -o CMakeFiles/Psidon.dir/src/Window/Window.cpp.s
+
 # Object files for target Psidon
 Psidon_OBJECTS = \
-"CMakeFiles/Psidon.dir/src/Logger/Logger.cpp.o" \
-"CMakeFiles/Psidon.dir/src/Events/Events.cpp.o"
+"CMakeFiles/Psidon.dir/src/Log/Log.cpp.o" \
+"CMakeFiles/Psidon.dir/src/Events/Events.cpp.o" \
+"CMakeFiles/Psidon.dir/src/Window/Window.cpp.o"
 
 # External object files for target Psidon
 Psidon_EXTERNAL_OBJECTS =
 
-libPsidon.so: CMakeFiles/Psidon.dir/src/Logger/Logger.cpp.o
+libPsidon.so: CMakeFiles/Psidon.dir/src/Log/Log.cpp.o
 libPsidon.so: CMakeFiles/Psidon.dir/src/Events/Events.cpp.o
+libPsidon.so: CMakeFiles/Psidon.dir/src/Window/Window.cpp.o
 libPsidon.so: CMakeFiles/Psidon.dir/build.make
 libPsidon.so: CMakeFiles/Psidon.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/brumus/Documents/Code/C++/BGFX/Psidon/Psidon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX shared library libPsidon.so"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/brumus/Documents/Code/C++/BGFX/Psidon/Psidon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX shared library libPsidon.so"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Psidon.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

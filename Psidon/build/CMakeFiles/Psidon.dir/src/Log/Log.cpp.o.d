@@ -1,7 +1,7 @@
-CMakeFiles/Psidon.dir/src/Logger/Logger.cpp.o: \
- /home/brumus/Documents/Code/C++/BGFX/Psidon/Psidon/src/Logger/Logger.cpp \
+CMakeFiles/Psidon.dir/src/Log/Log.cpp.o: \
+ /home/brumus/Documents/Code/C++/BGFX/Psidon/Psidon/src/Log/Log.cpp \
  /usr/include/stdc-predef.h \
- /home/brumus/Documents/Code/C++/BGFX/Psidon/Psidon/src/Logger/Logger.hpp \
+ /home/brumus/Documents/Code/C++/BGFX/Psidon/Psidon/src/Log/Log.hpp \
  /usr/include/c++/13.2.1/chrono \
  /usr/include/c++/13.2.1/bits/requires_hosted.h \
  /usr/include/c++/13.2.1/x86_64-pc-linux-gnu/bits/c++config.h \

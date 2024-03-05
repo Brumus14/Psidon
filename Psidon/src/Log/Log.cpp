@@ -1,9 +1,9 @@
-#include "Logger.hpp"
+#include "Log.hpp"
 
 #include <iostream>
 #include <format>
 
-namespace Psidon {
+namespace Psi {
   std::chrono::time_point<std::chrono::system_clock> Log::currentTimePoint;
   std::time_t Log::currentTime;
   std::tm * Log::timeInfo;

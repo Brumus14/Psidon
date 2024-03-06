@@ -1,5 +1,6 @@
 #include "Window.hpp"
 #include "Events/Events.hpp"
+#include "Log/Log.hpp"
 
 namespace Psi {
   bool Window::sGlfwInitialised = false;
@@ -23,11 +24,19 @@ namespace Psi {
     mHeight = height;
 
     if (!sGlfwInitialised) {
-      glfwInit();
+      if (!glfwInit()) {
+        Psi::Log::Critical("Failed to initialise GLFW");
+      }
+
       sGlfwInitialised = true;
     }
 
     mWindow = glfwCreateWindow(mWidth, mHeight, mTitle.c_str(), nullptr, nullptr);
+
+    if (!mWindow) {
+      Psi::Log::Critical("Failed to create GLFW window");
+    }
+
     sWindowCount++;
 
     glfwSetWindowCloseCallback(mWindow, [](GLFWwindow * window) {

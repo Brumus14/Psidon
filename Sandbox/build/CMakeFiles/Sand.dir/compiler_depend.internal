@@ -6,12 +6,28 @@ CMakeFiles/Sand.dir/src/Main.cpp.o
  /home/brumus/Documents/Code/C++/BGFX/Psidon/Psidon/src/Core/PlatformDetection.hpp
  /home/brumus/Documents/Code/C++/BGFX/Psidon/Psidon/src/Events/Events.hpp
  /home/brumus/Documents/Code/C++/BGFX/Psidon/Psidon/src/Log/Log.hpp
+ /home/brumus/Documents/Code/C++/BGFX/Psidon/Psidon/src/Renderer/Renderer.hpp
  /home/brumus/Documents/Code/C++/BGFX/Psidon/Psidon/src/Window/Window.hpp
  /home/brumus/Documents/Code/C++/BGFX/Psidon/Psidon/include/Psidon.hpp
+ /home/brumus/Documents/Code/C++/BGFX/Psidon/Psidon/lib/bgfx/include/bgfx/bgfx.h
+ /home/brumus/Documents/Code/C++/BGFX/Psidon/Psidon/lib/bgfx/include/bgfx/defines.h
+ /home/brumus/Documents/Code/C++/BGFX/Psidon/Psidon/lib/glfw/include/GLFW/glfw3.h
+ /home/brumus/Documents/Code/C++/BGFX/Psidon/Psidon/lib/glfw/include/GLFW/glfw3native.h
  /usr/include/GL/gl.h
  /usr/include/GL/glext.h
- /usr/include/GLFW/glfw3.h
  /usr/include/KHR/khrplatform.h
+ /usr/include/X11/X.h
+ /usr/include/X11/Xdefs.h
+ /usr/include/X11/Xfuncproto.h
+ /usr/include/X11/Xlib.h
+ /usr/include/X11/Xosdefs.h
+ /usr/include/X11/Xutil.h
+ /usr/include/X11/extensions/Xrandr.h
+ /usr/include/X11/extensions/Xrender.h
+ /usr/include/X11/extensions/randr.h
+ /usr/include/X11/extensions/render.h
+ /usr/include/X11/keysym.h
+ /usr/include/X11/keysymdef.h
  /usr/include/alloca.h
  /usr/include/asm-generic/errno-base.h
  /usr/include/asm-generic/errno.h

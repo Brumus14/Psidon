@@ -193,5 +193,16 @@ CMakeFiles/Sand.dir/src/Main.cpp.o: \
  /usr/include/c++/13.2.1/bits/erase_if.h \
  /home/brumus/Documents/Code/C++/BGFX/Psidon/Sandbox/../Psidon/include/../src/Core/PlatformDetection.hpp \
  /home/brumus/Documents/Code/C++/BGFX/Psidon/Sandbox/../Psidon/include/../src/Window/Window.hpp \
- /usr/include/GLFW/glfw3.h /usr/include/GL/gl.h /usr/include/GL/glext.h \
- /usr/include/KHR/khrplatform.h
+ /home/brumus/Documents/Code/C++/BGFX/Psidon/Sandbox/../Psidon/lib/glfw/include/GLFW/glfw3.h \
+ /usr/include/GL/gl.h /usr/include/GL/glext.h \
+ /usr/include/KHR/khrplatform.h \
+ /home/brumus/Documents/Code/C++/BGFX/Psidon/Sandbox/../Psidon/include/../src/Renderer/Renderer.hpp \
+ /home/brumus/Documents/Code/C++/BGFX/Psidon/Sandbox/../Psidon/lib/bgfx/include/bgfx/bgfx.h \
+ /home/brumus/Documents/Code/C++/BGFX/Psidon/Sandbox/../Psidon/lib/bgfx/include/bgfx/defines.h \
+ /home/brumus/Documents/Code/C++/BGFX/Psidon/Sandbox/../Psidon/lib/glfw/include/GLFW/glfw3native.h \
+ /usr/include/X11/Xlib.h /usr/include/X11/X.h \
+ /usr/include/X11/Xfuncproto.h /usr/include/X11/Xosdefs.h \
+ /usr/include/X11/extensions/Xrandr.h /usr/include/X11/extensions/randr.h \
+ /usr/include/X11/extensions/Xrender.h /usr/include/X11/Xutil.h \
+ /usr/include/X11/keysym.h /usr/include/X11/keysymdef.h \
+ /usr/include/X11/extensions/render.h /usr/include/X11/Xdefs.h

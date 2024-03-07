@@ -1,5 +1,11 @@
 #include <Psidon.hpp>
 
+// TESTING
+#define GLFW_EXPOSE_NATIVE_X11
+#include <bgfx/bgfx.h>
+#include <GLFW/glfw3.h>
+#include <GLFW/glfw3native.h>
+
 void OnWindowClose(const Psi::Event & event);
 void OnKeyPressed(const Psi::Event & e);
 void OnKeyReleased(const Psi::Event & e);
@@ -9,6 +15,15 @@ int main(int argc, char * argv[]) {
   Psi::Events::AddHandler(Psi::EventType::KeyPressed, OnKeyPressed);
 
   Psi::Window window = Psi::Window("test1", 800, 600);
+
+  bgfx::Init bgfxInit;
+  bgfxInit.platformData.ndt = glfwGetX11Display();
+  bgfxInit.platformData.nwh = (void*)(uintptr_t)glfwGetX11Window(window.GetGlfwWindow());
+  bgfxInit.resolution.width = 800;
+  bgfxInit.resolution.height = 600;
+  bgfxInit.resolution.reset = BGFX_RESET_VSYNC;
+
+  bgfx::init(bgfxInit);
 
   while (r) {
     window.Update();

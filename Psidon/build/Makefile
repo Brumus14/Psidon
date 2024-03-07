@@ -177,6 +177,30 @@ src/Log/Log.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Psidon.dir/build.make CMakeFiles/Psidon.dir/src/Log/Log.cpp.s
 .PHONY : src/Log/Log.cpp.s
 
+src/Renderer/Renderer.o: src/Renderer/Renderer.cpp.o
+.PHONY : src/Renderer/Renderer.o
+
+# target to build an object file
+src/Renderer/Renderer.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Psidon.dir/build.make CMakeFiles/Psidon.dir/src/Renderer/Renderer.cpp.o
+.PHONY : src/Renderer/Renderer.cpp.o
+
+src/Renderer/Renderer.i: src/Renderer/Renderer.cpp.i
+.PHONY : src/Renderer/Renderer.i
+
+# target to preprocess a source file
+src/Renderer/Renderer.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Psidon.dir/build.make CMakeFiles/Psidon.dir/src/Renderer/Renderer.cpp.i
+.PHONY : src/Renderer/Renderer.cpp.i
+
+src/Renderer/Renderer.s: src/Renderer/Renderer.cpp.s
+.PHONY : src/Renderer/Renderer.s
+
+# target to generate assembly for a file
+src/Renderer/Renderer.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Psidon.dir/build.make CMakeFiles/Psidon.dir/src/Renderer/Renderer.cpp.s
+.PHONY : src/Renderer/Renderer.cpp.s
+
 src/Window/Window.o: src/Window/Window.cpp.o
 .PHONY : src/Window/Window.o
 
@@ -216,6 +240,9 @@ help:
 	@echo "... src/Log/Log.o"
 	@echo "... src/Log/Log.i"
 	@echo "... src/Log/Log.s"
+	@echo "... src/Renderer/Renderer.o"
+	@echo "... src/Renderer/Renderer.i"
+	@echo "... src/Renderer/Renderer.s"
 	@echo "... src/Window/Window.o"
 	@echo "... src/Window/Window.i"
 	@echo "... src/Window/Window.s"

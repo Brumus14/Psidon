@@ -11,6 +11,9 @@ namespace Psi {
 
     void Update();
 
+    // TEMP
+    inline GLFWwindow * GetGlfwWindow() { return mWindow; }
+
   private:
     static bool sGlfwInitialised;
     static int sWindowCount;

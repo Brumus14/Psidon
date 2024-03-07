@@ -374,6 +374,10 @@ CMakeFiles/Psidon.dir/src/Log/Log.cpp.o
  /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/include/stdarg.h
  /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/include/stddef.h
 
+CMakeFiles/Psidon.dir/src/Renderer/Renderer.cpp.o
+ /home/brumus/Documents/Code/C++/BGFX/Psidon/Psidon/src/Renderer/Renderer.cpp
+ /usr/include/stdc-predef.h
+
 CMakeFiles/Psidon.dir/src/Window/Window.cpp.o
  /home/brumus/Documents/Code/C++/BGFX/Psidon/Psidon/src/Window/Window.cpp
  /home/brumus/Documents/Code/C++/BGFX/Psidon/Psidon/lib/glfw/include/GLFW/glfw3.h

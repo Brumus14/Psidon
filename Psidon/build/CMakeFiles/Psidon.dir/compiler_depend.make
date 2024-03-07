@@ -372,6 +372,9 @@ CMakeFiles/Psidon.dir/src/Log/Log.cpp.o: /home/brumus/Documents/Code/C++/BGFX/Ps
   /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/include/stdarg.h \
   /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/include/stddef.h
 
+CMakeFiles/Psidon.dir/src/Renderer/Renderer.cpp.o: /home/brumus/Documents/Code/C++/BGFX/Psidon/Psidon/src/Renderer/Renderer.cpp \
+  /usr/include/stdc-predef.h
+
 CMakeFiles/Psidon.dir/src/Window/Window.cpp.o: /home/brumus/Documents/Code/C++/BGFX/Psidon/Psidon/src/Window/Window.cpp \
   /home/brumus/Documents/Code/C++/BGFX/Psidon/Psidon/lib/glfw/include/GLFW/glfw3.h \
   /home/brumus/Documents/Code/C++/BGFX/Psidon/Psidon/src/Events/Events.hpp \
@@ -634,6 +637,8 @@ CMakeFiles/Psidon.dir/src/Window/Window.cpp.o: /home/brumus/Documents/Code/C++/B
 
 /usr/include/GL/glext.h:
 
+/usr/include/GL/gl.h:
+
 /usr/include/bits/wctype-wchar.h:
 
 /usr/include/c++/13.2.1/bits/range_access.h:
@@ -723,8 +728,6 @@ CMakeFiles/Psidon.dir/src/Window/Window.cpp.o: /home/brumus/Documents/Code/C++/B
 /usr/include/libintl.h:
 
 /usr/include/c++/13.2.1/bits/functional_hash.h:
-
-/usr/include/GL/gl.h:
 
 /usr/include/c++/13.2.1/bits/ranges_util.h:
 
@@ -1139,6 +1142,8 @@ CMakeFiles/Psidon.dir/src/Window/Window.cpp.o: /home/brumus/Documents/Code/C++/B
 /usr/include/wchar.h:
 
 /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/include/stdarg.h:
+
+/home/brumus/Documents/Code/C++/BGFX/Psidon/Psidon/src/Renderer/Renderer.cpp:
 
 /usr/include/c++/13.2.1/bits/hashtable_policy.h:
 

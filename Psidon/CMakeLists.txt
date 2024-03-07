@@ -8,6 +8,7 @@ add_library(Psidon SHARED
   src/Log/Log.cpp
   src/Events/Events.cpp
   src/Window/Window.cpp
+  src/Renderer/Renderer.cpp
 )
 
 # set_target_properties(Psidon PROPERTIES VERSION ${PROJECT_VERSION})
@@ -16,7 +17,7 @@ add_library(Psidon SHARED
 
 target_include_directories(Psidon PRIVATE src)
 target_include_directories(Psidon PRIVATE lib/glfw/include)
-# target_include_directories(Psidon PRIVATE lib/bgfx/include)
-# target_link_directories(Psidon PRIVATE lib/bgfx/.build/linux64_gcc/bin)
+target_include_directories(Psidon PRIVATE lib/bgfx/include)
+target_link_directories(Psidon PRIVATE lib/bgfx/.build/linux64_gcc/bin)
 
-target_link_libraries(Psidon glfw) # bgfx-shared-libDebug GL X11 pthread rt
+target_link_libraries(Psidon glfw bgfx-shared-libDebug GL X11 pthread rt)

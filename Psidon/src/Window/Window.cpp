@@ -45,9 +45,11 @@ namespace Psi {
     });
 
     glfwSetKeyCallback(mWindow, [](GLFWwindow * window, int key, int scancode, int action, int mods) {
-      KeyPressedEvent event;
-      event.keyCode = key;
-      Events::Dispatch(event);
+      if (action == GLFW_PRESS) {
+        KeyPressedEvent event;
+        event.keyCode = key;
+        Events::Dispatch(event);
+      }
     });
   }
 

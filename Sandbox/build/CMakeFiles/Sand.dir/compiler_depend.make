@@ -5,12 +5,28 @@ CMakeFiles/Sand.dir/src/Main.cpp.o: /home/brumus/Documents/Code/C++/BGFX/Psidon/
   /home/brumus/Documents/Code/C++/BGFX/Psidon/Psidon/src/Core/PlatformDetection.hpp \
   /home/brumus/Documents/Code/C++/BGFX/Psidon/Psidon/src/Events/Events.hpp \
   /home/brumus/Documents/Code/C++/BGFX/Psidon/Psidon/src/Log/Log.hpp \
+  /home/brumus/Documents/Code/C++/BGFX/Psidon/Psidon/src/Renderer/Renderer.hpp \
   /home/brumus/Documents/Code/C++/BGFX/Psidon/Psidon/src/Window/Window.hpp \
   /home/brumus/Documents/Code/C++/BGFX/Psidon/Psidon/include/Psidon.hpp \
+  /home/brumus/Documents/Code/C++/BGFX/Psidon/Psidon/lib/bgfx/include/bgfx/bgfx.h \
+  /home/brumus/Documents/Code/C++/BGFX/Psidon/Psidon/lib/bgfx/include/bgfx/defines.h \
+  /home/brumus/Documents/Code/C++/BGFX/Psidon/Psidon/lib/glfw/include/GLFW/glfw3.h \
+  /home/brumus/Documents/Code/C++/BGFX/Psidon/Psidon/lib/glfw/include/GLFW/glfw3native.h \
   /usr/include/GL/gl.h \
   /usr/include/GL/glext.h \
-  /usr/include/GLFW/glfw3.h \
   /usr/include/KHR/khrplatform.h \
+  /usr/include/X11/X.h \
+  /usr/include/X11/Xdefs.h \
+  /usr/include/X11/Xfuncproto.h \
+  /usr/include/X11/Xlib.h \
+  /usr/include/X11/Xosdefs.h \
+  /usr/include/X11/Xutil.h \
+  /usr/include/X11/extensions/Xrandr.h \
+  /usr/include/X11/extensions/Xrender.h \
+  /usr/include/X11/extensions/randr.h \
+  /usr/include/X11/extensions/render.h \
+  /usr/include/X11/keysym.h \
+  /usr/include/X11/keysymdef.h \
   /usr/include/alloca.h \
   /usr/include/asm-generic/errno-base.h \
   /usr/include/asm-generic/errno.h \
@@ -263,19 +279,23 @@ CMakeFiles/Sand.dir/src/Main.cpp.o: /home/brumus/Documents/Code/C++/BGFX/Psidon/
 
 /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/include/stddef.h:
 
-/usr/include/c++/13.2.1/bits/nested_exception.h:
+/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/include/stdarg.h:
 
-/usr/include/c++/13.2.1/bits/uniform_int_dist.h:
+/usr/include/sys/single_threaded.h:
 
-/usr/include/c++/13.2.1/bits/memoryfwd.h:
+/usr/include/sys/cdefs.h:
 
-/usr/include/c++/13.2.1/bits/locale_classes.tcc:
+/usr/include/stdlib.h:
 
-/usr/include/alloca.h:
+/usr/include/stdc-predef.h:
 
-/usr/include/c++/13.2.1/cstdio:
+/usr/include/wctype.h:
 
-/usr/include/c++/13.2.1/bits/locale_facets_nonio.tcc:
+/usr/include/sched.h:
+
+/usr/include/pthread.h:
+
+/usr/include/locale.h:
 
 /usr/include/c++/13.2.1/bits/hashtable_policy.h:
 
@@ -285,23 +305,11 @@ CMakeFiles/Sand.dir/src/Main.cpp.o: /home/brumus/Documents/Code/C++/BGFX/Psidon/
 
 /usr/include/c++/13.2.1/x86_64-pc-linux-gnu/bits/time_members.h:
 
-/usr/include/c++/13.2.1/span:
-
-/usr/include/c++/13.2.1/bits/locale_conv.h:
-
-/usr/include/c++/13.2.1/bits/stl_tempbuf.h:
-
 /usr/include/c++/13.2.1/bits/functional_hash.h:
 
 /usr/include/GL/gl.h:
 
 /usr/include/c++/13.2.1/bits/exception_ptr.h:
-
-/usr/include/c++/13.2.1/bits/enable_special_members.h:
-
-/usr/include/bits/cpu-set.h:
-
-/usr/include/KHR/khrplatform.h:
 
 /usr/include/bits/floatn-common.h:
 
@@ -320,6 +328,8 @@ CMakeFiles/Sand.dir/src/Main.cpp.o: /home/brumus/Documents/Code/C++/BGFX/Psidon/
 /usr/include/c++/13.2.1/system_error:
 
 /usr/include/c++/13.2.1/bits/basic_string.tcc:
+
+/usr/include/X11/Xosdefs.h:
 
 /usr/include/c++/13.2.1/bits/basic_ios.tcc:
 
@@ -341,6 +351,8 @@ CMakeFiles/Sand.dir/src/Main.cpp.o: /home/brumus/Documents/Code/C++/BGFX/Psidon/
 
 /usr/include/c++/13.2.1/backward/binders.h:
 
+/home/brumus/Documents/Code/C++/BGFX/Psidon/Psidon/lib/glfw/include/GLFW/glfw3.h:
+
 /home/brumus/Documents/Code/C++/BGFX/Psidon/Psidon/include/Psidon.hpp:
 
 /usr/include/c++/13.2.1/bits/erase_if.h:
@@ -359,97 +371,63 @@ CMakeFiles/Sand.dir/src/Main.cpp.o: /home/brumus/Documents/Code/C++/BGFX/Psidon/
 
 /usr/include/ctype.h:
 
-/usr/include/bits/types/struct_itimerspec.h:
-
-/usr/include/bits/struct_rwlock.h:
-
-/usr/include/bits/pthread_stack_min-dynamic.h:
-
-/usr/include/bits/timex.h:
-
-/usr/include/bits/errno.h:
-
-/usr/include/bits/pthreadtypes.h:
-
-/usr/include/c++/13.2.1/bits/string_view.tcc:
-
-/usr/include/c++/13.2.1/debug/assertions.h:
-
-/usr/include/bits/floatn.h:
+/usr/include/bits/types/struct_FILE.h:
 
 /usr/include/bits/types/mbstate_t.h:
 
-/usr/include/c++/13.2.1/bits/locale_facets_nonio.h:
+/usr/include/c++/13.2.1/bits/exception_defines.h:
 
-/usr/include/stdc-predef.h:
+/usr/include/bits/types/locale_t.h:
 
-/usr/include/c++/13.2.1/bits/allocated_ptr.h:
+/usr/include/bits/types/clock_t.h:
 
-/usr/include/bits/types.h:
+/usr/include/bits/types/__fpos_t.h:
 
-/usr/include/c++/13.2.1/tuple:
+/usr/include/c++/13.2.1/bits/unique_ptr.h:
 
-/usr/include/c++/13.2.1/bits/charconv.h:
+/usr/include/c++/13.2.1/bits/localefwd.h:
 
-/usr/include/bits/uintn-identity.h:
-
-/usr/include/c++/13.2.1/bits/std_abs.h:
-
-/usr/include/c++/13.2.1/bits/vector.tcc:
-
-/usr/include/bits/struct_mutex.h:
-
-/usr/include/c++/13.2.1/ext/alloc_traits.h:
-
-/usr/include/bits/locale.h:
-
-/usr/include/c++/13.2.1/bits/chrono.h:
-
-/home/brumus/Documents/Code/C++/BGFX/Psidon/Psidon/src/Events/Events.hpp:
-
-/usr/include/c++/13.2.1/bits/exception.h:
-
-/usr/include/bits/setjmp.h:
-
-/usr/include/c++/13.2.1/bits/stl_iterator_base_funcs.h:
-
-/usr/include/bits/waitflags.h:
-
-/usr/include/c++/13.2.1/bits/streambuf_iterator.h:
-
-/usr/include/c++/13.2.1/bits/node_handle.h:
-
-/usr/include/bits/types/struct_FILE.h:
-
-/usr/include/bits/libc-header-start.h:
-
-/usr/include/GL/glext.h:
-
-/usr/include/bits/pthreadtypes-arch.h:
-
-/usr/include/c++/13.2.1/bits/range_access.h:
+/usr/include/c++/13.2.1/type_traits:
 
 /usr/include/bits/types/__sigset_t.h:
 
 /usr/include/c++/13.2.1/cerrno:
 
-/usr/include/bits/long-double.h:
+/usr/include/bits/time.h:
 
-/usr/include/c++/13.2.1/bits/ranges_cmp.h:
+/usr/include/c++/13.2.1/bits/utility.h:
 
-/usr/include/c++/13.2.1/bits/shared_ptr.h:
+/usr/include/c++/13.2.1/limits:
 
-/usr/include/c++/13.2.1/bits/move.h:
+/usr/include/bits/types/FILE.h:
 
-/usr/include/c++/13.2.1/bits/stl_iterator_base_types.h:
+/usr/include/c++/13.2.1/bits/locale_facets.h:
 
-/usr/include/c++/13.2.1/bits/streambuf.tcc:
+/usr/include/bits/types.h:
 
-/usr/include/gnu/stubs-64.h:
+/usr/include/c++/13.2.1/bits/allocated_ptr.h:
 
-/usr/include/c++/13.2.1/bits/istream.tcc:
+/usr/include/X11/Xutil.h:
 
-/usr/include/bits/stdint-least.h:
+/usr/include/bits/types/error_t.h:
+
+/usr/include/bits/types/__mbstate_t.h:
+
+/usr/include/c++/13.2.1/chrono:
+
+/usr/include/c++/13.2.1/istream:
+
+/usr/include/c++/13.2.1/typeinfo:
+
+/usr/include/c++/13.2.1/bits/enable_special_members.h:
+
+/usr/include/bits/cpu-set.h:
+
+/usr/include/KHR/khrplatform.h:
+
+/usr/include/X11/Xlib.h:
+
+/usr/include/c++/13.2.1/iomanip:
 
 /usr/include/c++/13.2.1/bits/iterator_concepts.h:
 
@@ -457,11 +435,11 @@ CMakeFiles/Sand.dir/src/Main.cpp.o: /home/brumus/Documents/Code/C++/BGFX/Psidon/
 
 /usr/include/c++/13.2.1/bits/basic_string.h:
 
+/usr/include/sys/select.h:
+
+/usr/include/c++/13.2.1/bits/alloc_traits.h:
+
 /usr/include/c++/13.2.1/bits/cpp_type_traits.h:
-
-/usr/include/bits/time.h:
-
-/usr/include/bits/stdio_lim.h:
 
 /usr/include/c++/13.2.1/bits/functexcept.h:
 
@@ -477,15 +455,67 @@ CMakeFiles/Sand.dir/src/Main.cpp.o: /home/brumus/Documents/Code/C++/BGFX/Psidon/
 
 /usr/include/bits/types/time_t.h:
 
-/usr/include/c++/13.2.1/bits/locale_facets.h:
+/usr/include/bits/struct_rwlock.h:
 
-/usr/include/bits/types/FILE.h:
+/usr/include/bits/types/struct_itimerspec.h:
 
-/usr/include/bits/atomic_wide_counter.h:
+/usr/include/c++/13.2.1/bits/allocator.h:
 
-/usr/include/c++/13.2.1/concepts:
+/usr/include/X11/Xfuncproto.h:
 
-/home/brumus/Documents/Code/C++/BGFX/Psidon/Sandbox/src/Main.cpp:
+/usr/include/c++/13.2.1/bits/locale_facets_nonio.tcc:
+
+/usr/include/X11/keysym.h:
+
+/usr/include/c++/13.2.1/bits/stl_algo.h:
+
+/usr/include/X11/extensions/Xrandr.h:
+
+/usr/include/bits/struct_mutex.h:
+
+/usr/include/c++/13.2.1/ext/alloc_traits.h:
+
+/usr/include/GL/glext.h:
+
+/usr/include/c++/13.2.1/bits/chrono.h:
+
+/home/brumus/Documents/Code/C++/BGFX/Psidon/Psidon/lib/bgfx/include/bgfx/bgfx.h:
+
+/usr/include/bits/stdio_lim.h:
+
+/usr/include/X11/Xdefs.h:
+
+/usr/include/c++/13.2.1/bits/istream.tcc:
+
+/usr/include/alloca.h:
+
+/usr/include/c++/13.2.1/cstdio:
+
+/usr/include/bits/stdint-least.h:
+
+/usr/include/c++/13.2.1/bits/exception.h:
+
+/usr/include/bits/setjmp.h:
+
+/usr/include/c++/13.2.1/bits/stl_iterator_base_funcs.h:
+
+/usr/include/bits/waitflags.h:
+
+/usr/include/c++/13.2.1/bits/streambuf_iterator.h:
+
+/usr/include/X11/extensions/randr.h:
+
+/home/brumus/Documents/Code/C++/BGFX/Psidon/Psidon/src/Events/Events.hpp:
+
+/home/brumus/Documents/Code/C++/BGFX/Psidon/Psidon/src/Renderer/Renderer.hpp:
+
+/usr/include/c++/13.2.1/streambuf:
+
+/usr/include/bits/types/struct_timeval.h:
+
+/usr/include/asm-generic/errno-base.h:
+
+/home/brumus/Documents/Code/C++/BGFX/Psidon/Psidon/lib/glfw/include/GLFW/glfw3native.h:
 
 /usr/include/c++/13.2.1/bits/stl_uninitialized.h:
 
@@ -493,63 +523,81 @@ CMakeFiles/Sand.dir/src/Main.cpp.o: /home/brumus/Documents/Code/C++/BGFX/Psidon/
 
 /usr/include/c++/13.2.1/string_view:
 
-/usr/include/asm-generic/errno-base.h:
+/home/brumus/Documents/Code/C++/BGFX/Psidon/Sandbox/src/Main.cpp:
 
-/usr/include/bits/types/__fpos_t.h:
+/usr/include/bits/atomic_wide_counter.h:
 
-/usr/include/bits/types/clock_t.h:
+/usr/include/c++/13.2.1/concepts:
 
-/usr/include/c++/13.2.1/bits/unique_ptr.h:
+/usr/include/bits/errno.h:
 
-/usr/include/c++/13.2.1/bits/localefwd.h:
+/usr/include/bits/timex.h:
 
-/usr/include/c++/13.2.1/type_traits:
+/usr/include/bits/locale.h:
+
+/usr/include/c++/13.2.1/bits/charconv.h:
+
+/usr/include/bits/uintn-identity.h:
+
+/usr/include/c++/13.2.1/bits/std_abs.h:
+
+/usr/include/X11/keysymdef.h:
+
+/usr/include/c++/13.2.1/bits/vector.tcc:
+
+/usr/include/c++/13.2.1/tuple:
+
+/usr/include/bits/floatn.h:
+
+/usr/include/bits/libc-header-start.h:
+
+/usr/include/bits/long-double.h:
+
+/usr/include/c++/13.2.1/bits/ranges_cmp.h:
+
+/usr/include/c++/13.2.1/bits/shared_ptr.h:
+
+/usr/include/bits/pthread_stack_min-dynamic.h:
+
+/usr/include/bits/pthreadtypes-arch.h:
+
+/usr/include/c++/13.2.1/bits/range_access.h:
+
+/usr/include/bits/pthreadtypes.h:
+
+/usr/include/c++/13.2.1/bits/string_view.tcc:
+
+/usr/include/c++/13.2.1/debug/assertions.h:
 
 /usr/include/c++/13.2.1/compare:
 
 /usr/include/bits/select.h:
 
-/usr/include/c++/13.2.1/bits/allocator.h:
-
-/usr/include/bits/types/locale_t.h:
-
-/usr/include/c++/13.2.1/limits:
-
 /usr/include/bits/waitstatus.h:
 
 /usr/include/bits/wchar.h:
+
+/usr/include/X11/extensions/render.h:
 
 /usr/include/bits/types/struct___jmp_buf_tag.h:
 
 /usr/include/c++/13.2.1/x86_64-pc-linux-gnu/bits/atomic_word.h:
 
-/usr/include/c++/13.2.1/bits/ostream_insert.h:
-
-/usr/include/c++/13.2.1/string:
-
-/usr/include/bits/types/struct_timeval.h:
-
-/usr/include/c++/13.2.1/bits/new_allocator.h:
-
-/usr/include/bits/thread-shared-types.h:
+/usr/include/X11/extensions/Xrender.h:
 
 /usr/include/bits/endian.h:
 
 /usr/include/c++/13.2.1/clocale:
 
-/usr/include/bits/types/error_t.h:
+/usr/include/bits/types/cookie_io_functions_t.h:
 
-/usr/include/bits/types/__mbstate_t.h:
+/usr/include/c++/13.2.1/debug/debug.h:
 
-/usr/include/c++/13.2.1/chrono:
+/usr/include/c++/13.2.1/bits/node_handle.h:
 
-/usr/include/c++/13.2.1/typeinfo:
+/usr/include/bits/types/sigset_t.h:
 
-/usr/include/c++/13.2.1/istream:
-
-/usr/include/GLFW/glfw3.h:
-
-/usr/include/sys/cdefs.h:
+/usr/include/c++/13.2.1/x86_64-pc-linux-gnu/bits/cpu_defines.h:
 
 /usr/include/c++/13.2.1/bits/ios_base.h:
 
@@ -559,33 +607,55 @@ CMakeFiles/Sand.dir/src/Main.cpp.o: /home/brumus/Documents/Code/C++/BGFX/Psidon/
 
 /usr/include/bits/types/__FILE.h:
 
+/usr/include/bits/thread-shared-types.h:
+
+/usr/include/c++/13.2.1/bits/locale_classes.tcc:
+
+/usr/include/c++/13.2.1/bits/memoryfwd.h:
+
+/usr/include/c++/13.2.1/bits/locale_conv.h:
+
+/usr/include/c++/13.2.1/bits/stl_tempbuf.h:
+
 /usr/include/gnu/stubs.h:
 
 /usr/include/c++/13.2.1/bits/locale_facets.tcc:
 
-/usr/include/c++/13.2.1/bits/utility.h:
+/usr/include/c++/13.2.1/bits/locale_facets_nonio.h:
 
-/usr/include/bits/types/sigset_t.h:
+/usr/include/c++/13.2.1/bits/move.h:
 
-/usr/include/c++/13.2.1/x86_64-pc-linux-gnu/bits/cpu_defines.h:
+/usr/include/c++/13.2.1/bits/stl_iterator_base_types.h:
 
-/usr/include/bits/types/cookie_io_functions_t.h:
+/usr/include/c++/13.2.1/bits/streambuf.tcc:
 
-/usr/include/c++/13.2.1/debug/debug.h:
+/usr/include/gnu/stubs-64.h:
 
-/usr/include/c++/13.2.1/bits/exception_defines.h:
+/usr/include/c++/13.2.1/bits/nested_exception.h:
 
-/usr/include/asm/errno.h:
+/usr/include/X11/X.h:
+
+/usr/include/c++/13.2.1/bits/uniform_int_dist.h:
+
+/usr/include/c++/13.2.1/bits/new_allocator.h:
+
+/usr/include/c++/13.2.1/span:
+
+/usr/include/c++/13.2.1/bits/ostream_insert.h:
+
+/usr/include/c++/13.2.1/string:
 
 /usr/include/bits/stdint-uintn.h:
+
+/usr/include/asm/errno.h:
 
 /usr/include/c++/13.2.1/bits/parse_numbers.h:
 
 /usr/include/c++/13.2.1/bits/quoted_string.h:
 
-/home/brumus/Documents/Code/C++/BGFX/Psidon/Psidon/src/Log/Log.hpp:
-
 /usr/include/bits/types/__fpos64_t.h:
+
+/home/brumus/Documents/Code/C++/BGFX/Psidon/Psidon/src/Log/Log.hpp:
 
 /usr/include/c++/13.2.1/bits/requires_hosted.h:
 
@@ -601,7 +671,9 @@ CMakeFiles/Sand.dir/src/Main.cpp.o: /home/brumus/Documents/Code/C++/BGFX/Psidon/
 
 /usr/include/c++/13.2.1/bits/shared_ptr_base.h:
 
-/usr/include/c++/13.2.1/bits/stl_algo.h:
+/usr/include/wchar.h:
+
+/usr/include/c++/13.2.1/bits/std_function.h:
 
 /usr/include/c++/13.2.1/bits/memory_resource.h:
 
@@ -649,6 +721,8 @@ CMakeFiles/Sand.dir/src/Main.cpp.o: /home/brumus/Documents/Code/C++/BGFX/Psidon/
 
 /usr/include/sys/types.h:
 
+/home/brumus/Documents/Code/C++/BGFX/Psidon/Psidon/lib/bgfx/include/bgfx/defines.h:
+
 /usr/include/c++/13.2.1/cwchar:
 
 /usr/include/c++/13.2.1/x86_64-pc-linux-gnu/bits/os_defines.h:
@@ -667,9 +741,9 @@ CMakeFiles/Sand.dir/src/Main.cpp.o: /home/brumus/Documents/Code/C++/BGFX/Psidon/
 
 /usr/include/c++/13.2.1/bits/hashtable.h:
 
-/usr/include/bits/types/clockid_t.h:
-
 /usr/include/bits/stdint-intn.h:
+
+/usr/include/bits/types/clockid_t.h:
 
 /usr/include/c++/13.2.1/ext/numeric_traits.h:
 
@@ -680,8 +754,6 @@ CMakeFiles/Sand.dir/src/Main.cpp.o: /home/brumus/Documents/Code/C++/BGFX/Psidon/
 /usr/include/c++/13.2.1/format:
 
 /usr/include/c++/13.2.1/initializer_list:
-
-/usr/include/c++/13.2.1/iomanip:
 
 /usr/include/c++/13.2.1/bits/ostream.tcc:
 
@@ -705,9 +777,13 @@ CMakeFiles/Sand.dir/src/Main.cpp.o: /home/brumus/Documents/Code/C++/BGFX/Psidon/
 
 /usr/include/c++/13.2.1/ratio:
 
-/usr/include/c++/13.2.1/stdexcept:
+/usr/include/time.h:
 
-/usr/include/c++/13.2.1/streambuf:
+/usr/include/c++/13.2.1/bits/max_size_type.h:
+
+/usr/include/c++/13.2.1/sstream:
+
+/usr/include/c++/13.2.1/stdexcept:
 
 /usr/include/c++/13.2.1/unordered_map:
 
@@ -727,6 +803,14 @@ CMakeFiles/Sand.dir/src/Main.cpp.o: /home/brumus/Documents/Code/C++/BGFX/Psidon/
 
 /usr/include/c++/13.2.1/x86_64-pc-linux-gnu/bits/ctype_inline.h:
 
+/usr/include/stdio.h:
+
+/usr/include/bits/wordsize.h:
+
+/usr/include/c++/13.2.1/bits/stl_bvector.h:
+
+/usr/include/c++/13.2.1/x86_64-pc-linux-gnu/bits/error_constants.h:
+
 /usr/include/bits/typesizes.h:
 
 /usr/include/c++/13.2.1/x86_64-pc-linux-gnu/bits/gthr-default.h:
@@ -740,39 +824,3 @@ CMakeFiles/Sand.dir/src/Main.cpp.o: /home/brumus/Documents/Code/C++/BGFX/Psidon/
 /usr/include/endian.h:
 
 /usr/include/errno.h:
-
-/usr/include/locale.h:
-
-/usr/include/pthread.h:
-
-/usr/include/wctype.h:
-
-/usr/include/sched.h:
-
-/usr/include/bits/wordsize.h:
-
-/usr/include/c++/13.2.1/bits/stl_bvector.h:
-
-/usr/include/c++/13.2.1/x86_64-pc-linux-gnu/bits/error_constants.h:
-
-/usr/include/stdio.h:
-
-/usr/include/stdlib.h:
-
-/usr/include/c++/13.2.1/bits/alloc_traits.h:
-
-/usr/include/sys/select.h:
-
-/usr/include/sys/single_threaded.h:
-
-/usr/include/c++/13.2.1/bits/max_size_type.h:
-
-/usr/include/c++/13.2.1/sstream:
-
-/usr/include/time.h:
-
-/usr/include/c++/13.2.1/bits/std_function.h:
-
-/usr/include/wchar.h:
-
-/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/include/stdarg.h:
